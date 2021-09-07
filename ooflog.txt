@@ -1,6 +1,3 @@
-Elemental Console 5.22
+Elemental Console 6.2
 
-Hello There I have added a Whole Lot Of Stuff To Elemental
--text to speach
--auto Updater
--etc
+Hello There There are No Huge Updates right now for elemental
