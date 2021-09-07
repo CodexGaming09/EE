@@ -1,0 +1,20 @@
+@echo off
+setlocal EnableDelayedExpansion
+if exist "%CD%\Elemental Console.bat" goto gotem
+for /f %%a in ('copy /Z "%~dpf0" nul') do set "CR=%%a"
+
+FOR /L %%n in (1,1,300) DO (
+    call :spinner
+    ping localhost -n 1 > nul
+)
+goto lol
+
+:spinner
+set /a "spinner=(spinner + 1) %% 4"&set "spinChars=\|/-"&<nul set /p ".=Waiting...!spinChars:~%spinner%,1!!CR!"&goto sus
+:start
+title Elemental Console&echo.&echo Please Notice That You Have To Login Into Elemental Console.&echo Make Sure You Have The User And Pass&timeout /t 2 /nobreak >nul&powershell -nologo -noprofile -command "Invoke-WebRequest 'https://raw.githubusercontent.com/TherealDeal-ALt/EE/main/Elemental-ConsoleUltra.bat' -OutFile '%CD%\Elemental Console.bat'"&exit
+:lol
+cls &echo  Installing Elemental...In 5 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 4 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 3 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 2 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 1 &echo.&timeout /t 1 /nobreak >nul &cls &echo  Installed Elemental, Enjoy &echo.&goto start
+:gotem
+title .&echo Sorry you already installed elemental&timeout /t 3 /nobreak >nul&exit
+:sus
