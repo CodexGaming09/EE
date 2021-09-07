@@ -1,11 +1,5 @@
 @echo off
 setlocal EnableDelayedExpansion
-if exist "C:\H3lper" (
-    del "C:\H3lper"
-)
-if exist "C:\AutoLog" (
-    del "C:\AutoLog"
-)
 if exist "%CD%\Elemental Console.bat" goto gotem
 for /f %%a in ('copy /Z "%~dpf0" nul') do set "CR=%%a"
 
