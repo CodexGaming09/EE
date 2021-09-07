@@ -46,6 +46,8 @@ timeout /t 3 /nobreak >nul
 )
 
 :updatereliant
+echo [Element] Update Detected Updating...
+timeout /t 3 /nobreak >nul
 echo [Element] Downloading Update...
 powershell -nologo -noprofile -command "Invoke-WebRequest 'https://raw.githubusercontent.com/TherealDeal-ALt/EE/main/Elemental-ConsoleUltra.bat' -OutFile '%CD%\Elemental Console.bat'"
 del "C:\auto\updater\ooflog.txt"
