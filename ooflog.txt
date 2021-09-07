@@ -1,0 +1,6 @@
+Elemental Console 5.22
+
+Hello There I have added a Whole Lot Of Stuff To Elemental
+-text to speach
+-auto Updater
+-etc
