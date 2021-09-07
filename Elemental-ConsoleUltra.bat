@@ -6,7 +6,7 @@ if %debug% == "on" (
 
 goto startup
 :startup
-set gitcommit=2849$lol
+set gitcommit=Sk00lsu3ksngl
 set relversion=%gitcommit%/master
 set project=Elemental 1.11
 SETLOCAL EnableDelayedExpansion
