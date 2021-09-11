@@ -1,20 +1,1 @@
-@echo off
-setlocal EnableDelayedExpansion
-if exist "%CD%\Elemental Console.bat" goto gotem
-for /f %%a in ('copy /Z "%~dpf0" nul') do set "CR=%%a"
-
-FOR /L %%n in (1,1,300) DO (
-    call :spinner
-    ping localhost -n 1 > nul
-)
-goto lol
-
-:spinner
-set /a "spinner=(spinner + 1) %% 4"&set "spinChars=\|/-"&<nul set /p ".=Waiting...!spinChars:~%spinner%,1!!CR!"&goto sus
-:start
-title Elemental Console&echo.&echo Please Notice That You Have To Login Into Elemental Console.&echo Make Sure You Have The User And Pass&timeout /t 2 /nobreak >nul&powershell -nologo -noprofile -command "Invoke-WebRequest 'https://raw.githubusercontent.com/TherealDeal-ALt/EE/main/Elemental-ConsoleUltra.bat' -OutFile '%CD%\Elemental Console.bat'"&exit
-:lol
-cls &echo  Installing Elemental...In 5 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 4 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 3 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 2 &echo.&timeout /t 1 /nobreak >nul&cls &echo  Installing Elemental...In 1 &echo.&timeout /t 1 /nobreak >nul &cls &echo  Installed Elemental, Enjoy &echo.&goto start
-:gotem
-title .&echo Sorry you already installed elemental&timeout /t 3 /nobreak >nul&exit
-:sus
+挦獬਍敀档⁯景൦猊瑥潬慣⁬湅扡敬敄慬敹䕤灸湡楳湯਍晩攠楸瑳∠䌥╄䕜敬敭瑮污䌠湯潳敬戮瑡•潧潴朠瑯浥਍潦⁲是┠愥椠⁮✨潣祰⼠⁚┢摾晰∰渠汵⤧搠⁯敳⁴䌢㵒┥≡਍਍但⁒䰯┠渥椠⁮ㄨㄬ㌬〰 佄⠠਍††慣汬㨠灳湩敮൲ †瀠湩⁧潬慣桬獯⁴渭ㄠ㸠渠汵਍ഩ朊瑯⁯潬൬ഊ㨊灳湩敮൲猊瑥⼠⁡猢楰湮牥⠽灳湩敮⁲‫⤱┠‥∴猦瑥∠灳湩桃牡㵳籜⴯☢渼汵猠瑥⼠⁰⸢圽楡楴杮⸮℮灳湩桃牡㩳╾灳湩敮╲ㄬ℡剃∡朦瑯⁯畳൳㨊瑳牡൴琊瑩敬䔠敬敭瑮污䌠湯潳敬攦档⹯攦档⁯汐慥敳丠瑯捩⁥桔瑡夠畯䠠癡⁥潔䰠杯湩䤠瑮⁯汅浥湥慴⁬潃獮汯⹥攦档⁯慍敫匠牵⁥潙⁵慈敶吠敨唠敳⁲湁⁤慐獳琦浩潥瑵⼠⁴′港扯敲歡㸠畮♬潰敷獲敨汬ⴠ潮潬潧ⴠ潮牰景汩⁥挭浯慭摮∠湉潶敫圭扥敒畱獥⁴栧瑴獰⼺爯睡朮瑩畨畢敳捲湯整瑮挮浯启敨敲污敄污䄭瑌䔯⽅慭湩䔯敬敭瑮污䌭湯潳敬汕牴⹡慢❴ⴠ畏䙴汩⁥┧䑃尥汅浥湥慴⁬潃獮汯⹥慢❴☢硥瑩਍氺汯਍汣⁳攦档⁯䤠獮慴汬湩⁧汅浥湥慴⹬⸮湉㔠☠捥潨☮楴敭畯⁴琯ㄠ⼠潮牢慥⁫渾汵挦獬☠捥潨†湉瑳污楬杮䔠敬敭瑮污⸮䤮⁮‴攦档⹯琦浩潥瑵⼠⁴‱港扯敲歡㸠畮♬汣⁳攦档⁯䤠獮慴汬湩⁧汅浥湥慴⹬⸮湉㌠☠捥潨☮楴敭畯⁴琯ㄠ⼠潮牢慥⁫渾汵挦獬☠捥潨†湉瑳污楬杮䔠敬敭瑮污⸮䤮⁮′攦档⹯琦浩潥瑵⼠⁴‱港扯敲歡㸠畮♬汣⁳攦档⁯䤠獮慴汬湩⁧汅浥湥慴⹬⸮湉ㄠ☠捥潨☮楴敭畯⁴琯ㄠ⼠潮牢慥⁫渾汵☠汣⁳攦档⁯䤠獮慴汬摥䔠敬敭瑮污‬湅潪⁹攦档⹯朦瑯⁯瑳牡൴㨊潧整൭琊瑩敬⸠攦档⁯潓牲⁹潹⁵污敲摡⁹湩瑳污敬⁤汥浥湥慴♬楴敭畯⁴琯㌠⼠潮牢慥⁫渾汵攦楸൴㨊畳
