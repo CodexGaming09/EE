@@ -76,7 +76,7 @@ timeout /t 1 /nobreak >nul
 exit/b
 :startup2
 title Elemental Program (by E.M)
-set gitcommit=Elemental2021
+set gitcommit=CodexRemainsAlive
 set relversion=%gitcommit%/master
 set project=Elemental 1.11
 SETLOCAL EnableDelayedExpansion
